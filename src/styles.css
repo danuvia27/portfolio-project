@@ -1,7 +1,7 @@
 
 :root {
     --branding-color:#6C63FF;
-    --secondary-color:#f9f7fe;
+    --secondary-color: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
     --heading-font-family: 'Playfair Display', serif;
     --default-font-family:'Poppins', sans-serif;
 }
@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6{
 h1{
     font-size: 96px;
     line-height: 1.5;
+    
 }
 
 h2 {
@@ -75,10 +76,12 @@ padding: 12px 30px;
     padding: 120px 60px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
     h1 {
       font-size: 44px;  
       line-height: 1.5;
+    }
+
     h2 {
         font-size: 44px;
     }
