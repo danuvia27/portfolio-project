@@ -118,10 +118,14 @@ nav ul {
      line-height: 1.5;
      margin: 20px 0 0;
      font-family:var(--default-font-family); 
+     position: relative;
+     right: 40px;
  }
 
  .content p {
     font-size: 14px; 
+    position: relative;
+    right: 40px;
     
 
  }
