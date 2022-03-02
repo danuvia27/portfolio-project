@@ -1,15 +1,13 @@
 :root {
   --branding-color: #2954cc;
   --secondary-color: #f8f8ce;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: Apple Chancery, cursive;
 }
 
 body {
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -21,12 +19,14 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  color: black;
+  font-size: 75px;
   line-height: 1.5;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 30px;
+  opacity: 0.7;
 }
 
 h3 {
@@ -40,15 +40,11 @@ p {
 }
 
 img {
-  border-radius: 25px;
+  border: none;
 }
 
 .img-fluid {
   max-width: 80%;
-  border: 3px solid lightgray;
-}
-
-container .img-fluid {
 }
 
 .logo {
@@ -88,7 +84,6 @@ nav ul {
 }
 
 .hero {
-  background: var(--secondary-color);
   text-align: center;
   padding: 80px 20px;
   border: 3px solid lightgray;
@@ -98,7 +93,7 @@ nav ul {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: black;
+  color: whitesmoke;
 }
 
 .hero h2 {
@@ -106,6 +101,7 @@ nav ul {
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
+  color: whitesmoke;
 }
 .content-container {
   padding: 60px 20px;
