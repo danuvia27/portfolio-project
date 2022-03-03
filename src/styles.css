@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #2954cc;
-  --secondary-color: #f8f8ce;
+  --branding-color: #4a256f;
+  --secondary-color: #c8a4c1;
   --heading-font-family: Apple Chancery, cursive;
 }
 
@@ -19,14 +19,12 @@ h6 {
 }
 
 h1 {
-  color: black;
   font-size: 75px;
   line-height: 1.5;
 }
 
 h2 {
   font-size: 30px;
-  opacity: 0.7;
 }
 
 h3 {
@@ -35,16 +33,44 @@ h3 {
 
 p {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 30px;
+  color: var(--branding-color);
 }
 
-img {
-  border: none;
+.hero {
+  background-image: url("../images/stars.jpeg");
+  padding: 110px 30px;
+}
+
+.hero p {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #c8a4c1;
+}
+
+.hero h1 {
+  text-align: center;
+  color: #c8a4c1;
+}
+
+.hero h2 {
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+  color: #c8a4c1;
 }
 
 .img-fluid {
-  max-width: 80%;
+  max-width: 100%;
+}
+
+.col-lg-6 {
+  display: block;
+  margin: 0 auto;
 }
 
 .logo {
@@ -83,26 +109,6 @@ nav ul {
   margin: 0;
 }
 
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-  border: 3px solid lightgray;
-}
-
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  color: whitesmoke;
-}
-
-.hero h2 {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  line-height: 1.5;
-  font-size: 24px;
-  color: whitesmoke;
-}
 .content-container {
   padding: 60px 20px;
 }
@@ -129,6 +135,11 @@ nav ul {
 }
 .content {
   margin: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 .btn-branding {
