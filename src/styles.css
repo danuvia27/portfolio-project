@@ -64,13 +64,28 @@ p {
   color: #c8a4c1;
 }
 
-.img-fluid {
-  max-width: 100%;
+.card {
+  width: 80%;
+  height: 80%;
+  padding-top: 60px;
+  margin-top: 30px;
+  margin-left: 200px;
+  border: none;
 }
 
-.col-lg-6 {
-  display: block;
-  margin: 0 auto;
+.card-title {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+.card-text {
+  font-size: 17px;
+  font-family: "Playfair Display", serif;
+}
+
+.img-fluid {
+  margin-left: 320px;
+  margin-top: 20px;
 }
 
 .logo {
@@ -78,7 +93,7 @@ p {
   font-size: 20px;
   font-family: Apple Chancery, cursive;
   background: var(--secondary-color);
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 5px 20px;
 }
 
@@ -156,6 +171,15 @@ nav ul {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
+  line-height: 27px;
+  padding: 12px 30px;
+}
+
+.btn-primary {
+  background: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
   line-height: 27px;
   padding: 12px 30px;
 }
