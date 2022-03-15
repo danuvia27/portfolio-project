@@ -64,6 +64,15 @@ p {
   font-size: 24px;
   color: #c8a4c1;
 }
+.header p {
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+
+  color: #4a256f;
+
+  font-family: "Playfair Display", serif;
+}
 
 .card {
   width: 80%;
