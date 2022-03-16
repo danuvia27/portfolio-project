@@ -1,6 +1,6 @@
 :root {
   --branding-color: black;
-  --secondary-color: black;
+  --secondary-color: #edaeaa;
   --heading-font-family: "Merriweather", serif;
 }
 
@@ -104,6 +104,7 @@ p {
   width: 70%;
   border-radius: 25px;
   margin-left: 100px;
+  border: 3px solid #325b45;
 }
 
 .logo {
@@ -192,7 +193,7 @@ nav ul {
 }
 
 .btn-primary {
-  background: var(--branding-color);
+  background-color: var(--branding-color);
   border: 1px solid var(--branding-color);
   font-size: 18px;
   font-family: "Playfair Display", serif;
@@ -221,13 +222,13 @@ footer .contact-box p {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--branding-color);
   font-size: 24px;
   text-align: center;
 }
 
 footer .email-link:hover {
-  color: var(--branding-color);
+  color: var(--secondary-color);
 }
 
 footer .social-links a {
