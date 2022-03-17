@@ -83,7 +83,7 @@ p {
 }
 .index-card {
   position: relative;
-  left: 900px;
+  left: 850px;
   bottom: 500px;
 }
 
@@ -313,5 +313,15 @@ footer .social-links a:hover {
     text-align: center;
     display: block;
     margin: 0 auto;
+  }
+  .index-card {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 400px;
+    top: 60px;
+    left: 1px;
+    top: 10px;
   }
 }
