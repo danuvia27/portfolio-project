@@ -205,6 +205,14 @@ nav ul {
   line-height: 27px;
   padding: 12px 30px;
 }
+.btn-primary:hover {
+  background-color: #bfbfbf;
+  border-color: #606060;
+}
+.btn-branding:hover {
+  background-color: #bfbfbf;
+  border-color: #606060;
+}
 
 .project-description {
   padding: 20px;
