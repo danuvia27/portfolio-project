@@ -78,8 +78,13 @@ p {
   height: 80%;
   padding-top: 60px;
   margin-top: 30px;
-  margin-left: 300px;
+  margin-left: 100px;
   border: none;
+}
+.index-card {
+  position: relative;
+  left: 900px;
+  bottom: 500px;
 }
 
 .card-title {
