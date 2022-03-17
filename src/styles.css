@@ -316,8 +316,6 @@ footer .social-links a:hover {
   }
   .index-card {
     text-align: center;
-    display: block;
-    margin: 0 auto;
     position: relative;
     left: 400px;
     top: 60px;
